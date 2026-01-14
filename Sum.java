@@ -14,6 +14,7 @@ public class Sum
         System.out.println("4.Division(÷)");
         System.out.println("Choose a number between 1 to 4 ");
         int x=sc.nextInt();
+        System.out.println("Your choice is on process.")
         switch(x) {
             case 1:
                 System.out.println("Addition: " +(a+b));
