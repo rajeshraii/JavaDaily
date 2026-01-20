@@ -4,6 +4,7 @@ public class SameDifference {
         Scanner sc = new Scanner(System.in);
         int changes=0;
         int t = sc.nextInt();
+        sc.nextLine();
         for (int i = 0; i < t; i++) {
             int n = sc.nextInt(); 
             for(int j=1;j<=n;j++){
