@@ -14,7 +14,6 @@ public class TresureHuntt {
 
 
                 int remainder = a % (x + y);
-                
                 if (remainder < x) {
                     System.out.println("NO");  
                 } else {
