@@ -1,15 +1,12 @@
 import java.util.Scanner;
-
 public class SquareString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        sc.nextLine(); // consume newline
-
+        sc.nextLine();
         while (t-- > 0) {
             String s = sc.nextLine();
             int n = s.length();
-
             if (n % 2 != 0) {
                 System.out.println("NO");
             } else {
