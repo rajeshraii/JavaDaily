@@ -5,8 +5,11 @@ public class TwoPlayersTennis {
 
         Scanner sc=new Scanner(System.in);
         int t = sc.nextInt();
+
         for(int i = 0; i < t; i++){
+
             int k=sc.nextInt();
+            
             if((k - 1) % 3 ==0 ){
                 System.out.println("YES");
             }else{
