@@ -17,8 +17,8 @@ public class SoftDrinking {
         int lime = c * d;
         int salt = p / np;
 
-        int totalToasts = Math.min(drink, Math.min(lime, salt));
-        int result = totalToasts / n;
+        int totalT = Math.min(drink, Math.min(lime, salt));
+        int result = totalT / n;
 
         System.out.println(result);
         sc.close();
