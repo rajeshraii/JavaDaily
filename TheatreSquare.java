@@ -8,10 +8,10 @@ public class TheatreSquare {
         int m = sc.nextInt();
         int a = sc.nextInt();
 
-        int tilesAlongN = (n + a - 1) / a;
-        int tilesAlongM = (m + a - 1) / a;
+        int s = (n + a - 1) / a;
+        int r = (m + a - 1) / a;
 
-        int result = tilesAlongN * tilesAlongM;
+        int result = s * r;
 
         System.out.println(result);
         sc.close();
