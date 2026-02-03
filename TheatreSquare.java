@@ -4,14 +4,14 @@ public class TheatreSquare {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        long n = sc.nextLong();
-        long m = sc.nextLong();
-        long a = sc.nextLong();
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int a = sc.nextInt();
 
-        long tilesAlongN = (n + a - 1) / a;
-        long tilesAlongM = (m + a - 1) / a;
+        int tilesAlongN = (n + a - 1) / a;
+        int tilesAlongM = (m + a - 1) / a;
 
-        long result = tilesAlongN * tilesAlongM;
+        int result = tilesAlongN * tilesAlongM;
 
         System.out.println(result);
         sc.close();
