@@ -9,6 +9,7 @@ public class PrefixMax{
             int[] arr = new int[n];
             for(int j =0;j<n;j++){
                 arr[j] = sc.nextInt();
+                sum = sum + i;
             }
         }
         sc.close();
