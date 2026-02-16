@@ -1,3 +1,6 @@
+//Not completed//
+
+
 import java.util.Scanner;
 public class HelpKingdom{
     public static void main(String[] args) {
@@ -7,6 +10,7 @@ public class HelpKingdom{
         int dotIndex = number.indexOf('.');
         String integerPart = number.substring(0, dotIndex);
         String fractionalPart = number.substring(dotIndex + 1);
+        sc.close();
 
         char lastDigit = integerPart.charAt(integerPart.length() - 1);
         if (lastDigit == '9') {
@@ -19,6 +23,5 @@ public class HelpKingdom{
             int rounded = Integer.parseInt(integerPart) + 1;
             System.out.println(rounded);
         }
-        sc.close();
     }
 }
