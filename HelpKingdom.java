@@ -1,8 +1,8 @@
 //Not completed//
 
-
 import java.util.Scanner;
-public class HelpKingdom{
+
+public class HelpKingdom {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String number = sc.nextLine();
