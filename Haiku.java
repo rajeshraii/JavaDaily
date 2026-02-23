@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Haiku {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,8 +14,8 @@ public class Haiku {
                 System.out.println("NO");
                 return;
             }
+            sc.close();
         }
         System.out.println("YES");
-        sc.close();
     }
 }
