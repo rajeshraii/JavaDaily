@@ -9,7 +9,7 @@ public class DiverseStrings {
             Set<Character> set = new HashSet<>();
             int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
             boolean diverse = true;
-            
+
             for (char c : s.toCharArray()) {
                 if (!set.add(c)) {
                     diverse = false;
@@ -18,12 +18,10 @@ public class DiverseStrings {
                 min = Math.min(min, c);
                 max = Math.max(max, c);
             }
-            
-            // If all distinct, check that max - min == length - 1 (contiguous segment)
             if (diverse && (max - min != s.length() - 1)) {
                 diverse = false;
             }
-            
+
             System.out.println(diverse ? "Yes" : "No");
         }
         sc.close();
