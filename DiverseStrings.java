@@ -9,8 +9,6 @@ public class DiverseStrings {
             Set<Character> set = new HashSet<>();
             int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
             boolean diverse = true;
-
-            for (char c : s.toCharArray()) {
                 if (!set.add(c)) {
                     diverse = false;
                     break;
