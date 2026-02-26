@@ -8,7 +8,8 @@ public class FakeNews {
         String t = "heidi";
         int i = 0;
         for (char c : r.toCharArray()) {
-            if (i < t.length() && c == t.charAt(i)) i++;
+            if (i < t.length() && c == t.charAt(i))
+                i++;
         }
         System.out.println(i == t.length() ? "YES" : "NO");
         sc.close();
